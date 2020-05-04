@@ -2,6 +2,7 @@ package MapElite.FeatureSpace;
 
 import MapElite.IFeature;
 import MapElite.ISolution;
+import Seed.Seed;
 
 import java.util.*;
 
@@ -34,7 +35,7 @@ public class FeatureSpaceHandler implements IFeatureSpace {
         this.featureSpans = new HashMap<>();
         this.granularity = granularity;
         this.storeDuplicates = false;
-        this.random = new Random();
+        this.random = new Random(Seed.seed);
         this.features = features;
         this.recalculation = 0;
 

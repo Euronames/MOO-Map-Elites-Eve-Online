@@ -1,0 +1,1808 @@
+[
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 26.0,
+          "min": 12.5
+        },
+        "ARMOR": {
+          "max": 6151.0,
+          "min": 3075.0
+        },
+        "VELOCITY": {
+          "max": 145.0,
+          "min": 0.0
+        },
+        "SHIELD": {
+          "max": 1074.5,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 26.0,
+          "min": 12.5
+        },
+        "ARMOR": {
+          "max": 3075.0,
+          "min": 0.0
+        },
+        "VELOCITY": {
+          "max": 291.0,
+          "min": 145.0
+        },
+        "SHIELD": {
+          "max": 1074.5,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 12.5,
+          "min": 0.0
+        },
+        "ARMOR": {
+          "max": 3075.0,
+          "min": 0.0
+        },
+        "VELOCITY": {
+          "max": 291.0,
+          "min": 145.0
+        },
+        "SHIELD": {
+          "max": 2150.0,
+          "min": 1074.5
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 26.0,
+          "min": 12.5
+        },
+        "ARMOR": {
+          "max": 6151.0,
+          "min": 3075.0
+        },
+        "VELOCITY": {
+          "max": 291.0,
+          "min": 145.0
+        },
+        "SHIELD": {
+          "max": 1074.5,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 26.0,
+          "min": 12.5
+        },
+        "ARMOR": {
+          "max": 3075.0,
+          "min": 0.0
+        },
+        "VELOCITY": {
+          "max": 145.0,
+          "min": 0.0
+        },
+        "SHIELD": {
+          "max": 1074.5,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 12.5,
+          "min": 0.0
+        },
+        "ARMOR": {
+          "max": 3075.0,
+          "min": 0.0
+        },
+        "VELOCITY": {
+          "max": 145.0,
+          "min": 0.0
+        },
+        "SHIELD": {
+          "max": 2150.0,
+          "min": 1074.5
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 12.5,
+          "min": 0.0
+        },
+        "ARMOR": {
+          "max": 6151.0,
+          "min": 3075.0
+        },
+        "VELOCITY": {
+          "max": 291.0,
+          "min": 145.0
+        },
+        "SHIELD": {
+          "max": 2150.0,
+          "min": 1074.5
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 12.5,
+          "min": 0.0
+        },
+        "ARMOR": {
+          "max": 6151.0,
+          "min": 3075.0
+        },
+        "VELOCITY": {
+          "max": 145.0,
+          "min": 0.0
+        },
+        "SHIELD": {
+          "max": 2150.0,
+          "min": 1074.5
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 26.0,
+          "min": 12.5
+        },
+        "ARMOR": {
+          "max": 3075.0,
+          "min": 0.0
+        },
+        "VELOCITY": {
+          "max": 291.0,
+          "min": 145.0
+        },
+        "SHIELD": {
+          "max": 2150.0,
+          "min": 1074.5
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 12.5,
+          "min": 0.0
+        },
+        "ARMOR": {
+          "max": 6151.0,
+          "min": 3075.0
+        },
+        "VELOCITY": {
+          "max": 291.0,
+          "min": 145.0
+        },
+        "SHIELD": {
+          "max": 1074.5,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 26.0,
+          "min": 12.5
+        },
+        "ARMOR": {
+          "max": 3075.0,
+          "min": 0.0
+        },
+        "VELOCITY": {
+          "max": 145.0,
+          "min": 0.0
+        },
+        "SHIELD": {
+          "max": 2150.0,
+          "min": 1074.5
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 26.0,
+          "min": 12.5
+        },
+        "ARMOR": {
+          "max": 6151.0,
+          "min": 3075.0
+        },
+        "VELOCITY": {
+          "max": 291.0,
+          "min": 145.0
+        },
+        "SHIELD": {
+          "max": 2150.0,
+          "min": 1074.5
+        }
+      }
+    },
+    {
+      "paretoFront": [
+        {
+          "rigs": [
+            {
+              "componentName": "Capital Anti-Kinetic Screen Reinforcer II",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 200.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 100.0
+                },
+                {
+                  "attributeName": "durationSkillBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "powerNeedBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "shieldCapacityBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "rechargeratebonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 5.0
+                },
+                {
+                  "attributeName": "shieldBoostCapacitorBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "emDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "explosiveDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "kineticDamageResistanceBonus",
+                  "value": -35.0
+                },
+                {
+                  "attributeName": "thermalDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "drawback",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "upgradeCost",
+                  "value": 75.0
+                },
+                {
+                  "attributeName": "rigSize",
+                  "value": 4.0
+                }
+              ]
+            },
+            {
+              "componentName": "Capital Anti-Kinetic Screen Reinforcer II",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 200.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 100.0
+                },
+                {
+                  "attributeName": "durationSkillBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "powerNeedBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "shieldCapacityBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "rechargeratebonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 5.0
+                },
+                {
+                  "attributeName": "shieldBoostCapacitorBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "emDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "explosiveDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "kineticDamageResistanceBonus",
+                  "value": -35.0
+                },
+                {
+                  "attributeName": "thermalDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "drawback",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "upgradeCost",
+                  "value": 75.0
+                },
+                {
+                  "attributeName": "rigSize",
+                  "value": 4.0
+                }
+              ]
+            },
+            {
+              "componentName": "Capital Anti-Kinetic Screen Reinforcer II",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 200.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 100.0
+                },
+                {
+                  "attributeName": "durationSkillBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "powerNeedBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "shieldCapacityBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "rechargeratebonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 5.0
+                },
+                {
+                  "attributeName": "shieldBoostCapacitorBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "emDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "explosiveDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "kineticDamageResistanceBonus",
+                  "value": -35.0
+                },
+                {
+                  "attributeName": "thermalDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "drawback",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "upgradeCost",
+                  "value": 75.0
+                },
+                {
+                  "attributeName": "rigSize",
+                  "value": 4.0
+                }
+              ]
+            }
+          ],
+          "highModules": [
+            {
+              "componentName": "Gistum A-Type Medium Remote Shield Booster",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "capacitorNeed",
+                  "value": 208.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 65.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 61.0
+                },
+                {
+                  "attributeName": "maxRange",
+                  "value": 7250.0
+                },
+                {
+                  "attributeName": "shieldBonus",
+                  "value": 408.0
+                },
+                {
+                  "attributeName": "duration",
+                  "value": 7200.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3422.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 14.0
+                },
+                {
+                  "attributeName": "heatAbsorbtionRateModifier",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "overloadSelfDurationBonus",
+                  "value": -15.0
+                },
+                {
+                  "attributeName": "heatDamage",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "requiredThermoDynamicsSkill",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaGroupID",
+                  "value": 6.0
+                },
+                {
+                  "attributeName": "falloffEffectiveness",
+                  "value": 10875.0
+                },
+                {
+                  "attributeName": "remoteResistanceID",
+                  "value": 2116.0
+                },
+                {
+                  "attributeName": "mediumRemoteRepFittingMultiplier",
+                  "value": 1.0
+                }
+              ]
+            },
+            {
+              "componentName": "Gistii A-Type Small Remote Shield Booster",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "capacitorNeed",
+                  "value": 52.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 3.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 30.0
+                },
+                {
+                  "attributeName": "maxRange",
+                  "value": 5800.0
+                },
+                {
+                  "attributeName": "shieldBonus",
+                  "value": 102.0
+                },
+                {
+                  "attributeName": "duration",
+                  "value": 3600.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 5.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3422.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 14.0
+                },
+                {
+                  "attributeName": "heatAbsorbtionRateModifier",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "overloadSelfDurationBonus",
+                  "value": -15.0
+                },
+                {
+                  "attributeName": "heatDamage",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "requiredThermoDynamicsSkill",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaGroupID",
+                  "value": 6.0
+                },
+                {
+                  "attributeName": "falloffEffectiveness",
+                  "value": 9425.0
+                },
+                {
+                  "attributeName": "remoteResistanceID",
+                  "value": 2116.0
+                }
+              ]
+            },
+            null,
+            null,
+            null,
+            null
+          ],
+          "mediumModules": [
+            {
+              "componentName": "Gistum A-Type Thermal Dissipation Amplifier",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 29.0
+                },
+                {
+                  "attributeName": "capacityBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 5.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3425.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 13.0
+                },
+                {
+                  "attributeName": "emDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "explosiveDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "kineticDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "thermalDamageResistanceBonus",
+                  "value": -43.0
+                },
+                {
+                  "attributeName": "metaGroupID",
+                  "value": 6.0
+                }
+              ]
+            },
+            {
+              "componentName": "Small Neutron Saturation Injector I",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "capacitorNeed",
+                  "value": 20.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 22.0
+                },
+                {
+                  "attributeName": "shieldBonus",
+                  "value": 29.0
+                },
+                {
+                  "attributeName": "duration",
+                  "value": 2000.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 5.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 500.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3416.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "heatAbsorbtionRateModifier",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "overloadSelfDurationBonus",
+                  "value": -15.0
+                },
+                {
+                  "attributeName": "heatDamage",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "requiredThermoDynamicsSkill",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "overloadShieldBonus",
+                  "value": 10.0
+                }
+              ]
+            },
+            {
+              "componentName": "Basic Kinetic Deflection Amplifier",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "capacityBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 5.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3413.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "emDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "explosiveDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "kineticDamageResistanceBonus",
+                  "value": -25.0
+                },
+                {
+                  "attributeName": "thermalDamageResistanceBonus",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "componentName": "Pithum B-Type Thermal Dissipation Amplifier",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 34.0
+                },
+                {
+                  "attributeName": "capacityBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 5.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3425.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 12.0
+                },
+                {
+                  "attributeName": "emDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "explosiveDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "kineticDamageResistanceBonus",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "thermalDamageResistanceBonus",
+                  "value": -44.0
+                },
+                {
+                  "attributeName": "metaGroupID",
+                  "value": 6.0
+                }
+              ]
+            }
+          ],
+          "lowModules": [
+            {
+              "componentName": "Syndicate 400mm Steel Plates",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 29.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 22.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3394.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 8.0
+                },
+                {
+                  "attributeName": "massAddition",
+                  "value": 250000.0
+                },
+                {
+                  "attributeName": "armorHPBonusAdd",
+                  "value": 1300.0
+                },
+                {
+                  "attributeName": "metaGroupID",
+                  "value": 4.0
+                }
+              ]
+            },
+            {
+              "componentName": "800mm Steel Plates I",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 200.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 25.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 50.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3394.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 3.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "massAddition",
+                  "value": 1350000.0
+                },
+                {
+                  "attributeName": "armorHPBonusAdd",
+                  "value": 1750.0
+                }
+              ]
+            },
+            {
+              "componentName": "Syndicate 400mm Steel Plates",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 29.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 22.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3394.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 8.0
+                },
+                {
+                  "attributeName": "massAddition",
+                  "value": 250000.0
+                },
+                {
+                  "attributeName": "armorHPBonusAdd",
+                  "value": 1300.0
+                },
+                {
+                  "attributeName": "metaGroupID",
+                  "value": 4.0
+                }
+              ]
+            },
+            {
+              "componentName": "200mm Crystalline Carbonide Restrained Plates",
+              "qualities": [
+                {
+                  "attributeName": "mass",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "hp",
+                  "value": 40.0
+                },
+                {
+                  "attributeName": "power",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "capacity",
+                  "value": 0.0
+                },
+                {
+                  "attributeName": "cpu",
+                  "value": 15.0
+                },
+                {
+                  "attributeName": "volume",
+                  "value": 10.0
+                },
+                {
+                  "attributeName": "radius",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "requiredSkill1",
+                  "value": 3394.0
+                },
+                {
+                  "attributeName": "requiredSkill1Level",
+                  "value": 2.0
+                },
+                {
+                  "attributeName": "techLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "metaLevel",
+                  "value": 1.0
+                },
+                {
+                  "attributeName": "massAddition",
+                  "value": 120000.0
+                },
+                {
+                  "attributeName": "armorHPBonusAdd",
+                  "value": 500.0
+                }
+              ]
+            }
+          ],
+          "qualities": [
+            {
+              "attributeName": "damage",
+              "value": 0.0
+            },
+            {
+              "attributeName": "mass",
+              "value": 1.14E7
+            },
+            {
+              "attributeName": "hp",
+              "value": 1300.0
+            },
+            {
+              "attributeName": "powerLoad",
+              "value": 0.0
+            },
+            {
+              "attributeName": "powerToSpeed",
+              "value": 1.0
+            },
+            {
+              "attributeName": "warpFactor",
+              "value": 0.0
+            },
+            {
+              "attributeName": "maxVelocity",
+              "value": 290.0
+            },
+            {
+              "attributeName": "capacity",
+              "value": 420.0
+            },
+            {
+              "attributeName": "cpuLoad",
+              "value": 0.0
+            },
+            {
+              "attributeName": "rechargeRate",
+              "value": 427500.0
+            },
+            {
+              "attributeName": "agility",
+              "value": 0.5
+            },
+            {
+              "attributeName": "maxTargetRange",
+              "value": 47500.0
+            },
+            {
+              "attributeName": "scanSpeed",
+              "value": 4500.0
+            },
+            {
+              "attributeName": "launcherSlotsLeft",
+              "value": 2.0
+            },
+            {
+              "attributeName": "turretSlotsLeft",
+              "value": 4.0
+            },
+            {
+              "attributeName": "kineticDamageResonance",
+              "value": 0.67
+            },
+            {
+              "attributeName": "thermalDamageResonance",
+              "value": 0.67
+            },
+            {
+              "attributeName": "explosiveDamageResonance",
+              "value": 0.67
+            },
+            {
+              "attributeName": "emDamageResonance",
+              "value": 0.67
+            },
+            {
+              "attributeName": "mainColor",
+              "value": 1.6777215E7
+            },
+            {
+              "attributeName": "maxPassengers",
+              "value": 450.0
+            },
+            {
+              "attributeName": "uniformity",
+              "value": 1.0
+            },
+            {
+              "attributeName": "warpCapacitorNeed",
+              "value": 8.13E-7
+            },
+            {
+              "attributeName": "volume",
+              "value": 80000.0
+            },
+            {
+              "attributeName": "radius",
+              "value": 110.0
+            },
+            {
+              "attributeName": "requiredSkill1",
+              "value": 3333.0
+            },
+            {
+              "attributeName": "maxLockedTargets",
+              "value": 5.0
+            },
+            {
+              "attributeName": "scanRadarStrength",
+              "value": 0.0
+            },
+            {
+              "attributeName": "scanLadarStrength",
+              "value": 13.0
+            },
+            {
+              "attributeName": "scanMagnetometricStrength",
+              "value": 0.0
+            },
+            {
+              "attributeName": "scanGravimetricStrength",
+              "value": 0.0
+            },
+            {
+              "attributeName": "propulsionGraphicID",
+              "value": 397.0
+            },
+            {
+              "attributeName": "gfxBoosterID",
+              "value": 397.0
+            },
+            {
+              "attributeName": "shieldCapacity",
+              "value": 1600.0
+            },
+            {
+              "attributeName": "armorHP",
+              "value": 1300.0
+            },
+            {
+              "attributeName": "armorEmDamageResonance",
+              "value": 0.4
+            },
+            {
+              "attributeName": "armorExplosiveDamageResonance",
+              "value": 0.9
+            },
+            {
+              "attributeName": "armorKineticDamageResonance",
+              "value": 0.75
+            },
+            {
+              "attributeName": "armorThermalDamageResonance",
+              "value": 0.65
+            },
+            {
+              "attributeName": "shieldEmDamageResonance",
+              "value": 1.0
+            },
+            {
+              "attributeName": "shieldExplosiveDamageResonance",
+              "value": 0.5
+            },
+            {
+              "attributeName": "shieldKineticDamageResonance",
+              "value": 0.6
+            },
+            {
+              "attributeName": "shieldThermalDamageResonance",
+              "value": 0.8
+            },
+            {
+              "attributeName": "requiredSkill1Level",
+              "value": 1.0
+            },
+            {
+              "attributeName": "droneCapacity",
+              "value": 25.0
+            },
+            {
+              "attributeName": "techLevel",
+              "value": 1.0
+            },
+            {
+              "attributeName": "shieldRechargeRate",
+              "value": 1250000.0
+            },
+            {
+              "attributeName": "capacitorCapacity",
+              "value": 1200.0
+            },
+            {
+              "attributeName": "shieldUniformity",
+              "value": 0.75
+            },
+            {
+              "attributeName": "shipBonusMC",
+              "value": -7.5
+            },
+            {
+              "attributeName": "armorUniformity",
+              "value": 0.75
+            },
+            {
+              "attributeName": "structureUniformity",
+              "value": 1.0
+            },
+            {
+              "attributeName": "signatureRadius",
+              "value": 100.0
+            },
+            {
+              "attributeName": "scanResolution",
+              "value": 320.0
+            },
+            {
+              "attributeName": "warpSpeedMultiplier",
+              "value": 3.0
+            },
+            {
+              "attributeName": "metaLevel",
+              "value": 0.0
+            },
+            {
+              "attributeName": "shipBonusMC2",
+              "value": 10.0
+            },
+            {
+              "attributeName": "maxDirectionalVelocity",
+              "value": 2000.0
+            },
+            {
+              "attributeName": "minTargetVelDmgMultiplier",
+              "value": 0.25
+            },
+            {
+              "attributeName": "upgradeSlotsLeft",
+              "value": 3.0
+            },
+            {
+              "attributeName": "heatCapacityHi",
+              "value": 100.0
+            },
+            {
+              "attributeName": "heatDissipationRateHi",
+              "value": 0.01
+            },
+            {
+              "attributeName": "heatDissipationRateMed",
+              "value": 0.01
+            },
+            {
+              "attributeName": "heatDissipationRateLow",
+              "value": 0.01
+            },
+            {
+              "attributeName": "heatCapacityMed",
+              "value": 100.0
+            },
+            {
+              "attributeName": "heatCapacityLow",
+              "value": 100.0
+            },
+            {
+              "attributeName": "heatGenerationMultiplier",
+              "value": 0.75
+            },
+            {
+              "attributeName": "heatAttenuationHi",
+              "value": 0.76
+            },
+            {
+              "attributeName": "heatAttenuationMed",
+              "value": 0.63
+            },
+            {
+              "attributeName": "heatAttenuationLow",
+              "value": 0.63
+            },
+            {
+              "attributeName": "droneBandwidth",
+              "value": 25.0
+            },
+            {
+              "attributeName": "baseWarpSpeed",
+              "value": 1.0
+            },
+            {
+              "attributeName": "rigSize",
+              "value": 2.0
+            },
+            {
+              "attributeName": "fwLpKill",
+              "value": 100.0
+            },
+            {
+              "attributeName": "typeColorScheme",
+              "value": 11342.0
+            }
+          ],
+          "shipFeatureDescriptor": {
+            "shipFeatureSpace": {
+              "DRONERANGE": {
+                "score": 25.0
+              },
+              "ARMOR": {
+                "score": 6150.0
+              },
+              "VELOCITY": {
+                "score": 290.0
+              },
+              "SHIELD": {
+                "score": 2149.0
+              }
+            }
+          },
+          "shipName": "Stabber",
+          "cpuTotal": 715.0,
+          "powerTotal": 340.0,
+          "calibrationTotal": 400.0,
+          "cpuUsage": 270.0,
+          "powerUsage": 340.0,
+          "calibrationUsage": 225.0,
+          "random": {
+            "seed": 25214885082,
+            "nextNextGaussian": 0.0,
+            "haveNextNextGaussian": false
+          }
+        }
+      ],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 144856779876805,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 12.5,
+          "min": 0.0
+        },
+        "ARMOR": {
+          "max": 3075.0,
+          "min": 0.0
+        },
+        "VELOCITY": {
+          "max": 291.0,
+          "min": 145.0
+        },
+        "SHIELD": {
+          "max": 1074.5,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 26.0,
+          "min": 12.5
+        },
+        "ARMOR": {
+          "max": 6151.0,
+          "min": 3075.0
+        },
+        "VELOCITY": {
+          "max": 145.0,
+          "min": 0.0
+        },
+        "SHIELD": {
+          "max": 2150.0,
+          "min": 1074.5
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 12.5,
+          "min": 0.0
+        },
+        "ARMOR": {
+          "max": 3075.0,
+          "min": 0.0
+        },
+        "VELOCITY": {
+          "max": 145.0,
+          "min": 0.0
+        },
+        "SHIELD": {
+          "max": 1074.5,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ],
+  [
+    {
+      "sectorSpans": {
+        "DRONERANGE": {
+          "max": 12.5,
+          "min": 0.0
+        },
+        "ARMOR": {
+          "max": 6151.0,
+          "min": 3075.0
+        },
+        "VELOCITY": {
+          "max": 145.0,
+          "min": 0.0
+        },
+        "SHIELD": {
+          "max": 1074.5,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "paretoFront": [],
+      "storeDuplicates": false,
+      "random": {
+        "seed": 25214885082,
+        "nextNextGaussian": 0.0,
+        "haveNextNextGaussian": false
+      }
+    }
+  ]
+]

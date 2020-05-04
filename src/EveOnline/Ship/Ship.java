@@ -9,6 +9,7 @@ import EveOnline.Feature.ShipFeatureDescriptor;
 import MapElite.IFeature;
 import MapElite.IFeatureDescriptor;
 import MapElite.ISolution;
+import Seed.Seed;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -36,7 +37,9 @@ public class Ship implements IShip {
     private double powerUsage;
     private double calibrationUsage;
 
-    private Random random = new Random();
+
+
+    private Random random = new Random(Seed.seed);
 
     /**
      * Constructs a new Ship based on the number of rigs, high powered modules, medium powered modules and low powered modules, while also its total cpu, total power and total calibration.

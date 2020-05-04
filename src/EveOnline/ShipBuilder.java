@@ -8,8 +8,10 @@ import EveOnline.DataFetcher.*;
 import EveOnline.Feature.Features;
 import EveOnline.Ship.IShip;
 import EveOnline.Ship.Ship;
+
 import MapElite.IFeature;
 import MapElite.ISolution;
+import Seed.Seed;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,7 +25,7 @@ import java.util.Random;
  * and the possible ships which are possible to modify.
  */
 public class ShipBuilder implements IShipBuilder {
-    private Random random = new Random();
+    private Random random = new Random(Seed.seed);
     private ArrayList<IShip> ships;
     private ArrayList<IComponent> rigs;
     private ArrayList<IComponent> highPoweredModules;

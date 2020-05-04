@@ -1,6 +1,7 @@
 package MapElite.FeatureSpace;
 
 import MapElite.ISolution;
+import Seed.Seed;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -21,7 +22,7 @@ public class Sector implements ISector {
     Sector(boolean storeDuplicates) {
         this.storeDuplicates = storeDuplicates;
         paretoFront = new ArrayList<>();
-        random = new Random(); // An instance of Random is stored in the object as the random method is used a lot when program runs.
+        random = new Random(Seed.seed); // An instance of Random is stored in the object as the random method is used a lot when program runs.
     }
 
     @Override
