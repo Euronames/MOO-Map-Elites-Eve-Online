@@ -1,5 +1,7 @@
 package MapElite;
 
+import EveOnline.Ship.IShip;
+
 import java.util.List;
 
 /**
@@ -14,7 +16,7 @@ public interface IElitesController {
      *
      * @return returns a ISolution which i generated randomly.
      */
-    ISolution generateRandomSolution();
+    ISolution generateRandomSolution(IShip ship);
 
     /**
      * Get a muted solution based on a parents randomly mutation.
@@ -30,4 +32,6 @@ public interface IElitesController {
      * @return a List of all the features defined for the feature space.
      */
     List<IFeature> getFeatures();
+
+    IShip getRandomShip();
 }
