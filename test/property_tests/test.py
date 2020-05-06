@@ -1,8 +1,5 @@
-
-
 from hypothesis import given, settings,HealthCheck
 import hypothesis.strategies as st
-
 
 import jnius_config
 
@@ -10,13 +7,8 @@ jnius_config.set_classpath('.', '/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-On
 
 from jnius import autoclass
 
-
-
 Ship = autoclass('EveOnline.Ship.Ship')
 ShipBuilder = autoclass('EveOnline.ShipBuilder')
-
-
-
 
 @st.composite
 def ship_generator(draw):
@@ -39,8 +31,6 @@ def ship_generator(draw):
     new_ship.addTypeName(ship_name)
     return new_ship
 
-
-
 @given(ship=ship_generator())
 def test_random_mutation_no_components(ship):
     ship_builder = ShipBuilder()
@@ -51,13 +41,8 @@ def test_random_mutation_no_components(ship):
 def ship_generator_with_components(draw):
     ship_builder = ShipBuilder()
     ship = draw(ship_generator())
-    for i in range(0, 10):
-        ship_builder.addRandomComponent(ship)
-    ship.getShipFeatureDescriptor().updateShipFeatureDescriptions(ship)
+    ship_builder.generateRandomSolution(ship)
     return ship
-
-
-
 
 @settings(suppress_health_check=(HealthCheck.too_slow,))
 @given(ship_with_components = ship_generator_with_components())
