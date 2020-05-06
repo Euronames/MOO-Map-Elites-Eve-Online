@@ -4,7 +4,7 @@ import jnius_config
 from hypothesis import given
 import hypothesis.strategies as st
 
-jnius_config.set_classpath('.', './../MOO-Map-Elites-Eve-Online_FUNK/src/')
+jnius_config.set_classpath('.', './../MOO-Map-Elites-Eve-Online_FUNK/out/production/MOO-Map-Elites-Eve-Online')
 
 from jnius import autoclass
 
