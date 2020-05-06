@@ -28,19 +28,20 @@ def ship_generator(draw):
         , cpuTotal\
         , powerTotal\
         , calibrationTotal)
-    new_ship.addTypeName(ship_name)
     return new_ship
 
-@given(ship=ship_generator())
-def test_random_mutation_no_components(ship):
-    ship_builder = ShipBuilder()
-    mutation = ship_builder.randomMutation(ship)
-    assert(mutation != ship)
+@st.composite
+def generate_stabber(draw):
+    ship = draw(ship_generator())
+    ship.addTypeName("Stabber")
+    return ship
+
 
 @st.composite
 def ship_generator_with_components(draw):
     ship_builder = ShipBuilder()
-    ship = draw(ship_generator())
+    ship = draw(generate_stabber())
+    print(ship.toString())
     ship_builder.generateRandomSolution(ship)
     return ship
 
@@ -48,6 +49,12 @@ def ship_generator_with_components(draw):
 @given(ship_with_components = ship_generator_with_components())
 def test_ship_with_components(ship_with_components):
     assert(ship_with_components != None)
+
+@given(ship=ship_generator())
+def test_random_mutation_no_components(ship):
+    ship_builder = ShipBuilder()
+    mutation = ship_builder.randomMutation(ship)
+    assert(mutation != ship)
 
 
 test_ship_with_components()
