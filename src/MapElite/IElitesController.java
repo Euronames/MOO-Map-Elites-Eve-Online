@@ -2,8 +2,6 @@ package MapElite;
 
 import java.util.List;
 
-import EveOnline.Ship.IShip;
-
 /**
  * The IElitesController is meant to be a facade for interfacing a controller with the Map-Elite algorithm.
  * <p>
@@ -16,7 +14,7 @@ public interface IElitesController {
      *
      * @return returns a ISolution which i generated randomly.
      */
-    ISolution generateRandomSolution(IShip randomShip);
+    ISolution generateRandomSolution();
 
     /**
      * Get a muted solution based on a parents randomly mutation.

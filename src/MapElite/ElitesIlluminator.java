@@ -42,7 +42,7 @@ public class ElitesIlluminator implements IMapElitesFacade {
             }
 
             if (i < solutions) { // Add a number of random solution to the elites array
-                modifiedElite = mapElitesInterface.generateRandomSolution(mapElitesInterface.getRandomShip()); // Adds a random solution to the elites array
+                modifiedElite = mapElitesInterface.generateRandomSolution(); // Adds a random solution to the elites array
                 generationsTree.put(modifiedElite, new LinkedList<>());
             } else {
                 elite = featureSpaceHandler.getRandomSolution(); // Randomly select a solution from the elites array
