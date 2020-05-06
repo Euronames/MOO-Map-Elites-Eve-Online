@@ -14,7 +14,8 @@ public class SQLiteJDBCDriverConnection implements IConnection {
         Connection connection = null;
         try {
             // db parameters
-            String url = "jdbc:sqlite:pyfa_eve.db";
+            //String url = "jdbc:sqlite:pyfa_eve.db";
+            String url = "jdbc:sqlite:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/pyfa_eve.db";
             // create a connection to the database
             connection = DriverManager.getConnection(url);
         } catch (SQLException e) {

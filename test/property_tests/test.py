@@ -1,26 +1,33 @@
 
-import jnius_config
 
-from hypothesis import given
+from hypothesis import given, settings,HealthCheck
 import hypothesis.strategies as st
 
-jnius_config.set_classpath('.', './../MOO-Map-Elites-Eve-Online_FUNK/out/production/MOO-Map-Elites-Eve-Online')
+
+import jnius_config
+
+jnius_config.set_classpath('.', '/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/out/production/bachelor-2019---naming-may-change:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/sqlite-jdbc-3.23.1.jar:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/gson-2.8.5.jar')
 
 from jnius import autoclass
 
+
+
 Ship = autoclass('EveOnline.Ship.Ship')
-MapElitesInterface = autoclass('EveOnline.ShipBuilder')
+ShipBuilder = autoclass('EveOnline.ShipBuilder')
+
+
+
 
 @st.composite
 def ship_generator(draw):
-    numberOfRigs = draw(st.integers(max_value=10000, min_value=0))
-    numberOfHighModules = draw(st.integers(max_value=10000, min_value=0))
-    numberOfMediumModules = draw(st.integers(max_value=10000, min_value=0))
-    numberOfLowModules = draw(st.integers(max_value=10000, min_value=0))
-    cpuTotal = draw(st.floats(max_value=10000, min_value=0))
-    powerTotal = draw(st.floats(max_value=10000, min_value=0))
-    calibrationTotal = draw(st.floats(max_value=10000, min_value=0))
-    ship_name = draw(st.text(min_size=10, max_size=100))
+    numberOfRigs = draw(st.integers(max_value=10000, min_value=1))
+    numberOfHighModules = draw(st.integers(max_value=10000, min_value=1))
+    numberOfMediumModules = draw(st.integers(max_value=10000, min_value=1))
+    numberOfLowModules = draw(st.integers(max_value=10000, min_value=1))
+    cpuTotal = draw(st.floats(max_value=10000, min_value=1))
+    powerTotal = draw(st.floats(max_value=10000, min_value=1))
+    calibrationTotal = draw(st.floats(max_value=10000, min_value=1))
+    ship_name = draw(st.text(min_size=10, max_size=20))
     new_ship = Ship(\
         numberOfRigs\
         , numberOfHighModules\
@@ -30,29 +37,49 @@ def ship_generator(draw):
         , powerTotal\
         , calibrationTotal)
     new_ship.addTypeName(ship_name)
-    print(new_ship.toString())
     return new_ship
 
+
+
+@given(ship=ship_generator())
+def test_random_mutation_no_components(ship):
+    ship_builder = ShipBuilder()
+    mutation = ship_builder.randomMutation(ship)
+    assert(mutation != ship)
+
+@st.composite
+def ship_generator_with_components(draw):
+    ship_builder = ShipBuilder()
+    ship = draw(ship_generator())
+    for i in range(0, 10):
+        ship_builder.addRandomComponent(ship)
+    ship.getShipFeatureDescriptor().updateShipFeatureDescriptions(ship)
+    return ship
+
+
+
+
+@settings(suppress_health_check=(HealthCheck.too_slow,))
+@given(ship_with_components = ship_generator_with_components())
+def test_ship_with_components(ship_with_components):
+    assert(ship_with_components != None)
+
+
+test_ship_with_components()
+
+#test_random_mutation_no_components()
+ 
+
+
+
+
+
+
+"""
 @st.composite
 def ship_list_generator(draw, elements=ship_generator()):
     ship_list = draw(st.lists(elements, min_size=2, max_size=1000))
     return ship_list
+
+
 """
-@given(ships=ship_list_generator())
-def test_ships(ships):
-    assert(len(ships) > 1)
-"""
-@given(ship=ship_generator())
-def test_random_mutation(ship):
-    mei = MapElitesInterface()
-    mutation = mei.randomMutation(ship)
-    assert(mutation != ship)
-
-    
-#test_ships()
-
-test_random_mutation()
-
-@given
-def test_feature_space(ship):
-    print("TESTING FEATURESPACE")

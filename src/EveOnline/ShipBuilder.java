@@ -77,8 +77,8 @@ public class ShipBuilder implements IShipBuilder {
     }
 
     @Override
-    public ISolution generateRandomSolution() {
-        IShip randomShip = new Ship(getRandomShip());
+    public ISolution generateRandomSolution(IShip randomShip) {
+        //IShip randomShip = new Ship(getRandomShip());
         int repetitions = 200;
 
         for (int i = 0; i < repetitions; i++) {
@@ -189,7 +189,7 @@ public class ShipBuilder implements IShipBuilder {
      *
      * @return an IShip which is a random chosen ship.
      */
-    private IShip getRandomShip() {
+    public IShip getRandomShip() {
         return ships.get(random.nextInt(ships.size()));
     }
 
