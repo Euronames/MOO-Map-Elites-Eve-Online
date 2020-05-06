@@ -68,6 +68,7 @@ public class Ship implements IShip {
         this.calibrationUsage = 0;
     }
 
+   
     /**
      * Construct a new ship based on a predefined ship. Used for copying the ship onto a new instance for ship mutation.
      *
