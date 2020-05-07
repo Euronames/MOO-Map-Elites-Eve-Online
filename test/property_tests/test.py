@@ -34,7 +34,7 @@ def ship_generator(draw):
         , calibrationTotal)
     new_ship.addTypeName(ship_name)
     return new_ship
-
+"""
 @st.composite
 def generate_stabber(draw):
     Connection = autoclass('Database.Connection.SQLiteJDBCDriverConnection')
@@ -45,13 +45,22 @@ def generate_stabber(draw):
     print(ship)
     return ship
 
-
+"""
 
 @st.composite
 def ship_generator_with_components(draw):
     ship_builder = ShipBuilder()
     ship = draw(ship_generator())
-    ship.addLowPoweredComponent(ship_builder.getRandomLowPoweredModule())
+    for i in range(0, 50):
+        component = draw(components())
+        if component.getComponentName() == "Rig":
+            ship.addRig(component)
+        elif component.getComponentName() == "LowPoweredModule":
+            ship.addLowPoweredComponent(component)
+        elif component.getComponentName() == "MediumPoweredModule":
+            ship.addMediumPoweredComponent(component)
+        elif component.getComponentName() == "HighPoweredModule":
+            ship.addHighPoweredModule(component)
     print(ship.toString())
     return ship
 
@@ -79,13 +88,14 @@ def qualities(draw):
     quality_name = draw(st.text())
     quality_value = draw(st.floats())
     quality = Quality(quality_name, quality_value)
-    print(quality.toString())
+    print("Quality: ", quality.toString())
     return quality
 
 
 
 @st.composite
 def components(draw):
+    print("______________________________")
     Component = autoclass('EveOnline.Component.Component')
     ArrayList = autoclass('java.util.ArrayList')
     component = Component()
@@ -105,11 +115,15 @@ def components(draw):
 @given(component = components())
 def test_components(component):
     print(component.getComponentName())
+    print("_________________________________")
     assert(component != None) 
 
 
 
-
+@given(ship_with_components = ship_generator_with_components())
+def test_ship_with_components(ship_with_components):
+    print(ship_with_components)
+    assert(ship_with_components != None)
 
 @given(ship=ship_generator())
 def test_random_mutation_no_components(ship):
@@ -117,11 +131,11 @@ def test_random_mutation_no_components(ship):
     mutation = ship_builder.randomMutation(ship)
     assert(mutation != ship)
 
-test_components()
+#test_components()
 
 #test_component_names()
 
-#test_ship_with_components()
+test_ship_with_components()
 
 #test_random_mutation_no_components()
  
