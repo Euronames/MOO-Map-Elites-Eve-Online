@@ -3,7 +3,7 @@ import hypothesis.strategies as st
 
 import jnius_config
 
-jnius_config.set_classpath('.', '/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/out/production/bachelor-2019---naming-may-change:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/sqlite-jdbc-3.23.1.jar:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/gson-2.8.5.jar')
+jnius_config.set_classpath('.', '/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/out/production/MOO-Map-Elites-Eve-Online:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/sqlite-jdbc-3.23.1.jar:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/gson-2.8.5.jar')
 
 from jnius import autoclass
 
@@ -32,15 +32,19 @@ def ship_generator(draw):
 
 @st.composite
 def generate_stabber(draw):
-    ship = draw(ship_generator())
-    ship.addTypeName("Stabber")
+    Connection = autoclass('Database.Connection.SQLiteJDBCDriverConnection')
+    ShipFetcher = autoclass('EveOnline.DataFetcher.ShipFetcher')
+    ship_fetcher = ShipFetcher(Connection())
+    print(ship_fetcher)
+    ship = ship_fetcher.getShipByTypeID(622)
+    print(ship)
     return ship
 
 
 @st.composite
 def ship_generator_with_components(draw):
     ship_builder = ShipBuilder()
-    ship = draw(generate_stabber())
+    ship = draw(ship_generator())
     print(ship.toString())
     ship_builder.generateRandomSolution(ship)
     return ship
