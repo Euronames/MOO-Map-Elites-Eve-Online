@@ -8,6 +8,11 @@ import java.util.ArrayList;
  */
 public class Component implements IComponent {
     private String componentName;
+
+    public String getComponentName() {
+        return componentName;
+    }
+
     private ArrayList<IQuality> qualities = new ArrayList<>();
 
     public void addQualities(ArrayList<IQuality> qualities) {
