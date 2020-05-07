@@ -78,7 +78,9 @@ def qualities(draw):
     Quality = autoclass('EveOnline.Component.Quality')
     quality_name = draw(st.text())
     quality_value = draw(st.floats())
-    return Quality(quality_name, quality_value)
+    quality = Quality(quality_name, quality_value)
+    print(quality.toString())
+    return quality
 
 
 
@@ -87,23 +89,25 @@ def components(draw):
     Component = autoclass('EveOnline.Component.Component')
     ArrayList = autoclass('java.util.ArrayList')
     component = Component()
-    qualities = draw(st.lists(qualities()))
-    array_list_qualities = ArrayList(qualities)
+    quality_list = draw(st.lists(qualities()))
+    array_list_qualities = ArrayList()
+    array_list_qualities.add(quality_list)
     component_name = draw(component_names())
     component.addQualities(array_list_qualities)
     component.addTypeName(component_name)
     return component
 
     
-    
-
-
-
-
-
 
 
 #________________TESTS________________
+
+@given(component = components())
+def test_components(component):
+    print(component.getComponentName())
+    assert(component != None) 
+
+
 
 
 
@@ -113,8 +117,9 @@ def test_random_mutation_no_components(ship):
     mutation = ship_builder.randomMutation(ship)
     assert(mutation != ship)
 
+test_components()
 
-test_component_names()
+#test_component_names()
 
 #test_ship_with_components()
 
