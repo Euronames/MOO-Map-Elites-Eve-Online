@@ -119,7 +119,7 @@ public class ShipBuilder implements IShipBuilder {
      * @param ship the ship the component is added to.
      * @return true if the component addition was successful otherwise false.
      */
-    private boolean addRandomComponent(IShip ship) {
+    public boolean addRandomComponent(IShip ship) {
         int numberOfComponentTypes = 4;
         boolean hasBeenAdded = false;
         switch (random.nextInt(numberOfComponentTypes)) {
