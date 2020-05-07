@@ -10,6 +10,10 @@ from jnius import autoclass
 Ship = autoclass('EveOnline.Ship.Ship')
 ShipBuilder = autoclass('EveOnline.ShipBuilder')
 
+
+
+#_______________ SHIP GENERATORS ____________________
+
 @st.composite
 def ship_generator(draw):
     numberOfRigs = draw(st.integers(max_value=10000, min_value=1))
@@ -28,6 +32,7 @@ def ship_generator(draw):
         , cpuTotal\
         , powerTotal\
         , calibrationTotal)
+    new_ship.addTypeName(ship_name)
     return new_ship
 
 @st.composite
@@ -41,18 +46,66 @@ def generate_stabber(draw):
     return ship
 
 
+
 @st.composite
 def ship_generator_with_components(draw):
     ship_builder = ShipBuilder()
     ship = draw(ship_generator())
+    ship.addLowPoweredComponent(ship_builder.getRandomLowPoweredModule())
     print(ship.toString())
-    ship_builder.generateRandomSolution(ship)
     return ship
+
 
 @settings(suppress_health_check=(HealthCheck.too_slow,))
 @given(ship_with_components = ship_generator_with_components())
 def test_ship_with_components(ship_with_components):
     assert(ship_with_components != None)
+
+
+
+
+#____________COMPONENT GENERATOR _______________
+
+@st.composite
+def component_names(draw):
+    ComponentName = autoclass('EveOnline.Component.ComponentName')
+    component_names = [ComponentName.Rig, ComponentName.LowPoweredModule, ComponentName.MediumPoweredModule, ComponentName.HighPoweredModule]
+    random_component_index = draw(st.one_of(st.integers(min_value=0, max_value=len(component_names) - 1)))
+    return component_names[random_component_index].toString()
+    
+@st.composite
+def qualities(draw):
+    Quality = autoclass('EveOnline.Component.Quality')
+    quality_name = draw(st.text())
+    quality_value = draw(st.floats())
+    return Quality(quality_name, quality_value)
+
+
+
+@st.composite
+def components(draw):
+    Component = autoclass('EveOnline.Component.Component')
+    ArrayList = autoclass('java.util.ArrayList')
+    component = Component()
+    qualities = draw(st.lists(qualities()))
+    array_list_qualities = ArrayList(qualities)
+    component_name = draw(component_names())
+    component.addQualities(array_list_qualities)
+    component.addTypeName(component_name)
+    return component
+
+    
+    
+
+
+
+
+
+
+
+#________________TESTS________________
+
+
 
 @given(ship=ship_generator())
 def test_random_mutation_no_components(ship):
@@ -61,7 +114,9 @@ def test_random_mutation_no_components(ship):
     assert(mutation != ship)
 
 
-test_ship_with_components()
+test_component_names()
+
+#test_ship_with_components()
 
 #test_random_mutation_no_components()
  
