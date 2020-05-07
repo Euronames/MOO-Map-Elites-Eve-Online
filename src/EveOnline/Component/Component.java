@@ -10,6 +10,10 @@ public class Component implements IComponent {
     private String componentName;
     private ArrayList<IQuality> qualities = new ArrayList<>();
 
+    public void addQualities(ArrayList<IQuality> qualities) {
+        this.qualities = qualities;
+    }
+
     @Override
     public void addQuality(IQuality newQuality) {
         qualities.add(newQuality);
@@ -32,6 +36,7 @@ public class Component implements IComponent {
         stringBuilder.append("Qualities in component").append(System.getProperty("line.separator"));
         for (IQuality quality : qualities) {
             stringBuilder.append(quality).append(System.getProperty("line.separator"));
+
         }
 
         return stringBuilder.toString();
