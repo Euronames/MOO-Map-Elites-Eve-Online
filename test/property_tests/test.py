@@ -3,7 +3,7 @@ import hypothesis.strategies as st
 
 import jnius_config
 
-jnius_config.set_classpath('.', '/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/out/production/MOO-Map-Elites-Eve-Online:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/sqlite-jdbc-3.23.1.jar:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/gson-2.8.5.jar')
+jnius_config.set_classpath('.', 'out/production/MOO-Map-Elites-Eve-Online:lib/sqlite-jdbc-3.23.1.jar:lib/gson-2.8.5.jar')
 
 from jnius import autoclass
 
@@ -131,11 +131,11 @@ def test_random_mutation_no_components(ship):
     mutation = ship_builder.randomMutation(ship)
     assert(mutation != ship)
 
-#test_components()
+test_components()
 
 #test_component_names()
 
-test_ship_with_components()
+#test_ship_with_components()
 
 #test_random_mutation_no_components()
  
