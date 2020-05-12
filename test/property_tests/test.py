@@ -3,7 +3,7 @@ import hypothesis.strategies as st
 
 import jnius_config
 
-jnius_config.set_classpath('.', '/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/out/production/MOO-Map-Elites-Eve-Online:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/sqlite-jdbc-3.23.1.jar:/Users/xrosby/Desktop/Git/MOO-Map-Elites-Eve-Online_FUNK/lib/gson-2.8.5.jar')
+jnius_config.set_classpath('.', 'out/production/MOO-Map-Elites-Eve-Online:lib/sqlite-jdbc-3.23.1.jar:lib/gson-2.8.5.jar')
 
 from jnius import autoclass
 
@@ -104,7 +104,6 @@ def test_components(component):
     print(component.getComponentName())
     print("_________________________________")
     assert(component != None) 
-
 
 
 @given(ship_with_components = ship_generator_with_components())
