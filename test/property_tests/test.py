@@ -119,7 +119,6 @@ def test_components(component):
     assert(component != None) 
 
 
-
 @given(ship_with_components = ship_generator_with_components())
 def test_ship_with_components(ship_with_components):
     print(ship_with_components)
@@ -131,7 +130,7 @@ def test_random_mutation_no_components(ship):
     mutation = ship_builder.randomMutation(ship)
     assert(mutation != ship)
 
-test_components()
+#test_components()
 
 #test_component_names()
 

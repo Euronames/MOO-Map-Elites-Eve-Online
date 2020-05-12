@@ -23,7 +23,19 @@ public class RuntimeTest {
     private int[] granularity = {3, 9, 15};
     private int[] generations = {1000, 10000, 100000};
     private int[] initialGenerations = {50, 250, 500};
+    //Add seed 
     private int testIterations = 20;
+    //Test efter variance 
+
+    // highter generations == better results 
+
+    //Granularity 0 og sammenlign resultater
+
+    //Jo længere du kører, jo bedre coverage 
+    //Jo længere den kører, jo større er befolkningen
+    
+
+    //TEst med rigtig skibe 
 
     private RuntimeTest() throws IOException {
         newLine = "\n";
