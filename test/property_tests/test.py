@@ -34,18 +34,6 @@ def ship_generator(draw):
         , calibrationTotal)
     new_ship.addTypeName(ship_name)
     return new_ship
-"""
-@st.composite
-def generate_stabber(draw):
-    Connection = autoclass('Database.Connection.SQLiteJDBCDriverConnection')
-    ShipFetcher = autoclass('EveOnline.DataFetcher.ShipFetcher')
-    ship_fetcher = ShipFetcher(Connection())
-    print(ship_fetcher)
-    ship = ship_fetcher.getShipByTypeID(622)
-    print(ship)
-    return ship
-
-"""
 
 @st.composite
 def ship_generator_with_components(draw):
@@ -93,6 +81,8 @@ def qualities(draw):
 
 
 
+
+
 @st.composite
 def components(draw):
     print("______________________________")
@@ -106,9 +96,6 @@ def components(draw):
     component.addQualities(array_list_qualities)
     component.addTypeName(component_name)
     return component
-
-    
-
 
 #________________TESTS________________
 
@@ -135,7 +122,7 @@ def test_random_mutation_no_components(ship):
 
 #test_component_names()
 
-test_ship_with_components()
+#test_ship_with_components()
 
 #test_random_mutation_no_components()
  
